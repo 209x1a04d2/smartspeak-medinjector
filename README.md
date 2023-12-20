@@ -4,9 +4,10 @@
 ![image](https://github.com/209x1a04d2/smartspeak-medinjector/assets/112796057/b7465d50-c23b-4202-9c57-b71e037eaed6)
 
 
-1. This project work falls under wireless biomedical device and is designed with Arduino controller, which is able to monitor the temperature, heart beat rate (number of beats) of a patient continuously.
-2. The controller is interfaced with the GSM modem to transmit a message in the form of SMS to the authorized mobile number along with the parameter details. 
-3. By replying a SMS to the GSM modem, automatically medicine injector will be activated and injection will be given in case of emergency. A voice chip will announce if any of the parameter goes abnormal or the injection is given through the speaker.
+* This project work falls under wireless biomedical device and is designed with Arduino controller, which is able to monitor the temperature, heart beat rate (number of beats) of a patient continuously.
+* The controller is interfaced with the GSM modem to transmit a message in the form of SMS to the authorized mobile number along with the parameter details. 
+* By replying a SMS to the GSM modem, automatically medicine injector will be activated and injection will be given in case of emergency. A voice chip will announce if any of the parameter goes abnormal or the 
+  injection is given through the speaker.
 
    
 # **Introduction:**
@@ -35,9 +36,9 @@ The components used in our project are as follows:
 
 # **Working Principle:**
 
-1. When temperature is above (39.4 Celsius or 103 Fahrenheit) and Heart beat rate is (greater than 120 beats per minute or lesser than 60 beats per minute) then the GSM module should send message to the doctor mobile number 
-2. Then, when the doctor sends the message like “INJECT MEDICINE” then the dc motor should be activated to drive the syringe for injection. 
-3. Syringe Action: The syringe should suck in the medicine(here take it as water) and should give out (suck out) medicine and this syringe should be connected to a small tube.
+* When temperature is above (39.4 Celsius or 103 Fahrenheit) and Heart beat rate is (greater than 120 beats per minute or lesser than 60 beats per minute) then the GSM module should send message to the doctor mobile number
+* Then, when the doctor sends the message like “INJECT MEDICINE” then the dc motor should be activated to drive the syringe for injection. 
+* Syringe Action: The syringe should suck in the medicine(here take it as water) and should give out (suck out) medicine and this syringe should be connected to a small tube.
 
 
 # **Hardware Components:**
