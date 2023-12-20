@@ -1,12 +1,15 @@
 # smartspeak-medinjector
-Abstract:
+**Abstract:**
+
+![image](https://github.com/209x1a04d2/smartspeak-medinjector/assets/112796057/b7465d50-c23b-4202-9c57-b71e037eaed6)
+
 
 1. This project work falls under wireless biomedical device and is designed with Arduino controller, which is able to monitor the temperature, heart beat rate (number of beats) of a patient continuously.
 2. The controller is interfaced with the GSM modem to transmit a message in the form of SMS to the authorized mobile number along with the parameter details. 
 3. By replying a SMS to the GSM modem, automatically medicine injector will be activated and injection will be given in case of emergency. A voice chip will announce if any of the parameter goes abnormal or the injection is given through the speaker.
 
    
-Introduction:
+**Introduction:***
 
 The components used in our project are as follows:
 1. L293D Motor Driver
@@ -20,24 +23,24 @@ The components used in our project are as follows:
 9. Jumper Wires
 
     
-Block Diagram:
+**Block Diagram:**
 
 ![image](https://github.com/209x1a04d2/smartspeak-medinjector/assets/112796057/53e7932f-f90d-4995-94ef-376d30862dba)
 
 
-Circuit Diagram:
+**Circuit Diagram:**
 
 ![image](https://github.com/209x1a04d2/smartspeak-medinjector/assets/112796057/08e0623c-7dcc-4ab2-b414-4dc94a9702ee)
 
 
-Working Principle:
+**Working Principle:**
 
 1. When temperature is above (39.4 Celsius or 103 Fahrenheit) and Heart beat rate is (greater than 120 beats per minute or lesser than 60 beats per minute) then the GSM module should send message to the doctor mobile number 
 2. Then, when the doctor sends the message like “INJECT MEDICINE” then the dc motor should be activated to drive the syringe for injection. 
 3. Syringe Action: The syringe should suck in the medicine(here take it as water) and should give out (suck out) medicine and this syringe should be connected to a small tube.
 
 
-Hardware Components:
+**Hardware Components:**
 
 1. Arduino Uno:
 
@@ -73,7 +76,7 @@ Software Tools:
 ![image](https://github.com/209x1a04d2/smartspeak-medinjector/assets/112796057/42d0efe1-cde7-4c94-be85-b3572f513d38)
 
 
-Working Model:
+**Working Model:**
 
 This is the working model of our project as shown.
 
@@ -106,7 +109,7 @@ Then, when the doctor analysis the parameters and feels like to inject medicine 
 
 
 
-Advantages:
+**Advantages:**
 
 1. Improved Medication Adherence.
 2. Reduced Risk of Medication Errors.
@@ -114,7 +117,7 @@ Advantages:
 4. Cost-Effective.
 
 
-Applications:
+**Applications:**
 
 1. Home Medication Management
 2. Elderly Care
