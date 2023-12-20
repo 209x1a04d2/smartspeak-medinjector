@@ -1,5 +1,5 @@
 # smartspeak-medinjector
-**Abstract:**
+# **Abstract:**
 
 ![image](https://github.com/209x1a04d2/smartspeak-medinjector/assets/112796057/b7465d50-c23b-4202-9c57-b71e037eaed6)
 
@@ -9,7 +9,7 @@
 3. By replying a SMS to the GSM modem, automatically medicine injector will be activated and injection will be given in case of emergency. A voice chip will announce if any of the parameter goes abnormal or the injection is given through the speaker.
 
    
-**Introduction:***
+# **Introduction:**
 
 The components used in our project are as follows:
 1. L293D Motor Driver
@@ -23,60 +23,39 @@ The components used in our project are as follows:
 9. Jumper Wires
 
     
-**Block Diagram:**
+# **Block Diagram:**
 
 ![image](https://github.com/209x1a04d2/smartspeak-medinjector/assets/112796057/53e7932f-f90d-4995-94ef-376d30862dba)
 
 
-**Circuit Diagram:**
+# **Circuit Diagram:**
 
 ![image](https://github.com/209x1a04d2/smartspeak-medinjector/assets/112796057/08e0623c-7dcc-4ab2-b414-4dc94a9702ee)
 
 
-**Working Principle:**
+# **Working Principle:**
 
 1. When temperature is above (39.4 Celsius or 103 Fahrenheit) and Heart beat rate is (greater than 120 beats per minute or lesser than 60 beats per minute) then the GSM module should send message to the doctor mobile number 
 2. Then, when the doctor sends the message like “INJECT MEDICINE” then the dc motor should be activated to drive the syringe for injection. 
 3. Syringe Action: The syringe should suck in the medicine(here take it as water) and should give out (suck out) medicine and this syringe should be connected to a small tube.
 
 
-**Hardware Components:**
+# **Hardware Components:**
 
-1. Arduino Uno:
+1. Arduino Uno
+2. L293D Motor Driver
+3. DHT Sensor
+4. Heart Beat Sensor
+5. Buzzer
+6. GSM SIM900A
+7. 2x16 LCD display
 
-![image](https://github.com/209x1a04d2/smartspeak-medinjector/assets/112796057/2491cb19-90da-4854-a074-845c41b7464d) 
-
-2. L293D Motor Driver:
-
-![image](https://github.com/209x1a04d2/smartspeak-medinjector/assets/112796057/b37fe55b-06f1-44bd-8338-f7bf71baa57d) 
-
-3. DHT Sensor:
-
-![image](https://github.com/209x1a04d2/smartspeak-medinjector/assets/112796057/1d34809d-d73c-4223-b4dd-7391ce9f2c04)
-
-4. Heart Beat Sensor:
-
-![image](https://github.com/209x1a04d2/smartspeak-medinjector/assets/112796057/293b8000-43ca-4145-b390-e1f6207e5b14)
-
-5. Buzzer:
-   
-![image](https://github.com/209x1a04d2/smartspeak-medinjector/assets/112796057/ffe080f9-7b46-4a2d-9e5b-031fcd9a2773)
-
-6. GSM SIM900A:
-   
-![image](https://github.com/209x1a04d2/smartspeak-medinjector/assets/112796057/fb81575e-14a2-4d3d-a2cc-4a673f1d25b6)
-
-7. 2x16 LCD display:
-
-![image](https://github.com/209x1a04d2/smartspeak-medinjector/assets/112796057/2dbd4db5-fb68-4abf-a55b-1df664e4b575)
-
-
-Software Tools:
+# Software Tools:
 
 ![image](https://github.com/209x1a04d2/smartspeak-medinjector/assets/112796057/42d0efe1-cde7-4c94-be85-b3572f513d38)
 
 
-**Working Model:**
+# **Working Model:**
 
 This is the working model of our project as shown.
 
@@ -109,7 +88,7 @@ Then, when the doctor analysis the parameters and feels like to inject medicine 
 
 
 
-**Advantages:**
+# **Advantages:**
 
 1. Improved Medication Adherence.
 2. Reduced Risk of Medication Errors.
@@ -117,7 +96,7 @@ Then, when the doctor analysis the parameters and feels like to inject medicine 
 4. Cost-Effective.
 
 
-**Applications:**
+# **Applications:**
 
 1. Home Medication Management
 2. Elderly Care
